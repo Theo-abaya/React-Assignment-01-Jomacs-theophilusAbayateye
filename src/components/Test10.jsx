@@ -7,9 +7,8 @@ If isAdmin is true, display <h2>Admin Panel</h2>. Otherwise, show nothing. Use t
 function Test10() {
   const isAdmin = true;
 
-  return (
-    // Your code here
-  );
+  return;
+  isAdmin && <h2>Admin Panel</h2>;
 }
 
 export default Test10;
